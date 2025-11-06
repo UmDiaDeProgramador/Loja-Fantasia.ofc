@@ -1,0 +1,480 @@
+*{
+box-sizing: border-box;
+padding: 0%;
+margin: 0%;
+}
+/* VARIAVEIS CSS*/
+:root{
+--branquinho:#f1f1f1;
+--cinza:#e9e9e9;
+--roxoclaro:rgb(197, 179, 255);
+--roxomedio:#4e1a8d;
+--vermelhoescuro:#3f0c87;
+--gradient:linear-gradient(to top, rgba(0,0,0,0.6), rgba(0,0,0,0.3));
+
+}
+body{
+background-image: var(--gradient),url(../assets/img/fundo.png);
+}
+
+.topo{
+position: relative;
+text-align: center;
+padding: 20px 0;
+margin-top: -20px;
+}
+.logo{
+position: absolute;
+top: 70%;
+left: 20px;
+transform: translateY(-50%);
+height: 60px;
+
+}
+header{
+background-color: var(--roxomedio);
+height: 120px;
+color: var(--branquinho);
+padding: 20px;
+/* display: flex; */
+
+justify-content: space-around;
+}
+
+
+header h1{
+font-family:BBH Sans Bartle ;
+font-size: 2.5rem;
+font-weight: 100;
+z-index: 2;
+text-align: center;
+color: #fff;
+justify-content: space-around;
+list-style: none;
+
+/* margin-bottom: 10px; */
+margin: 0;
+}
+
+
+.menu-header {
+list-style: none;
+
+display: flex;
+gap: 5rem;
+justify-content: center;
+
+}
+.item-menu{
+font-family: Questrial;
+font-size: 18px;
+color: var(--branquinho);
+text-decoration: none;
+font-weight: 400;
+transition: color .5s;
+text-transform: uppercase;
+position: relative;
+display:inline-block ;
+
+}
+.item-menu::after{
+content: "";
+position: absolute;
+bottom: 0;
+left: 0;
+height: 2px;
+width: 0;
+background-color: var(--roxoclaro);
+transition: width 0.3s ease;
+}
+
+.item-menu:hover::after {
+width: 100%;
+}
+
+/* LOGIN MENUUUUUUUUUUUUU */
+#login{
+font-family: Questrial;
+font-size: 18px;
+color: var(--branquinho);
+text-decoration: none;
+font-weight: 400;
+transition: color .5s;
+text-transform: uppercase;
+position: relative;
+display:inline-block ;
+
+}
+#login::after{
+content: "";
+position: absolute;
+bottom: 0;
+left: 0;
+height: 2px;
+width: 0;
+background-color: var(--roxoclaro);
+transition: width 0.3s ease;
+}
+
+#login:hover::after {
+width: 100%;
+}
+
+
+menu-header a:hover{
+color: var(--roxoclaro);
+}
+
+
+/* MENU HAMBURGUER */
+
+.hamburguer {
+margin-right: -15px;
+cursor: pointer;
+position: relative;
+z-index: 999;
+display: none;
+flex-direction: column;
+}
+
+.barra {
+display: block;
+width: 3rem;
+height: .3rem;
+background-color: var(--roxoclaro);
+margin: .5rem auto;
+border-radius: 10px;
+transition: .5s;
+margin-right: 10px;
+position: relative;
+top: -64px;
+right: 20px;
+padding: 0.5px;
+}
+
+
+#produtos{
+font-family: Questrial;
+display: grid;
+justify-content: center;
+margin-left: 150px;
+}
+
+#produtos img{
+width: 100%;
+height: 200px;
+padding: 3px;
+}
+.nome-prod{
+    margin: 8px;
+    margin-bottom: 100%;
+text-decoration: none;
+font-weight: bold;
+font-size: 24px;
+color: var(--vermelhoescuro);
+transition: color .5s;
+/* text-transform: uppercase; */
+position: relative;
+/* display:inline-block ; */
+    
+}
+.nome-prod::after{
+content: "";
+position: absolute;
+bottom: 0;
+left: 0;
+height: 2px;
+width: 0;
+background-color: var(--vermelhoescuro);
+transition: width 0.3s ease;
+}
+
+.nome-prod:hover::after {
+width: 100%;
+}
+
+
+article p{
+    
+    margin: 8px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+main{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+
+}
+.aside-conteudo{
+
+
+justify-content: center;
+padding: 10px;
+margin: 5px;
+/* gap: 15rem; */
+
+}
+#pesquisa{
+
+
+height: 24px;
+width: 150px;
+margin-bottom: 14px;
+border: 1px solid #20002e;
+}
+#aside-aside{
+
+
+font-family: Questrial;
+font-weight: 1rem;
+width: 220px;
+/* height: 2px; */
+padding: 10px;
+background: #e0d2fb;
+position: absolute;
+    height: 92.1%;
+    height: 86.6%;
+
+}
+#aside-aside h2{
+
+
+margin-bottom: 5px;
+color: var(--roxomedio);
+}
+/* a{
+   text-decoration: none;
+   color:var(--vermelhoescuro)
+}
+a:hover{
+   color: #20002e;
+   text-decoration: underline;
+   transition: color .5s;
+} */
+ul{
+
+
+text-decoration: none;
+list-style: none;
+}
+#bolinha{
+
+
+width: 150px;
+
+}
+
+
+.filtro ul li{
+
+
+margin-top: 10px;
+margin-bottom: 50px;
+
+
+}
+.filtro ul li a{
+
+text-decoration: none;
+margin-top: 10px;
+margin-bottom: 50px;
+
+
+}
+
+.roupa{ 
+margin-right: -100px;
+width: 350px;
+    height: 300px;
+    height: 280px;
+margin: 20px;
+padding: 5px;
+/* margin-top: 10px; */
+/* gap: 7rem; */
+background-color: var(--cinza);
+
+}
+.roupa:hover{
+transform: scale(1.02);
+transition: transform 0.3s ease;
+border: 1px solid var(--cinza);
+cursor: pointer;
+}
+
+
+/* 
+article a{
+   margin: 8px;
+    
+   font-size: 25px;
+    color: rgb(132, 21, 21);
+}
+
+} */
+/* article a::after{
+ content: "";
+ position: absolute;
+ bottom: 0;
+ left: 0;
+ height: 2px;
+ width: 0;
+ background-color: var(--roxoclaro);
+ transition: width 0.3s ease;
+}
+
+article a:hover::after {
+ width: 100%;
+} */
+
+
+article p{
+    margin: 8px;
+    font-size: 20px;
+    color: black;
+
+
+}
+
+
+
+
+.footer-container{
+
+display: flex;
+text-align: center;
+justify-content: space-around;
+max-width: 100%;
+
+color: var(--branquinho);
+padding: 20px;
+font-size: 14px;
+background: var(--vermelhoescuro);
+}
+.tituf{
+font-family:BBH Sans Bartle;
+text-align: center;
+
+
+
+}
+.direitos{
+font-family: Questrial;
+text-align: center;
+
+}
+.infos{
+font-family: Questrial;
+text-align: center;
+
+}
+
+
+
+@media(width <=1024px) {
+
+
+header{
+height: 60px; 
+}
+.menu-header{
+width: 100%;
+height: 100vh;
+background: var(--roxomedio);
+position: absolute;
+z-index: 3;
+top: 0;
+left: -100%;
+gap: 6rem;
+text-align: center;
+flex-direction: column;
+justify-content: center;
+transition: .5s;
+}
+header h1{
+font-size: 1.4rem;
+margin-right: 5px;
+}
+
+#titulo{
+margin: 0 auto;
+font-size: 1.2rem;
+}
+
+/* #produtos{
+       display: block;
+       flex-wrap: wrap;
+       justify-content: center;
+       flex-direction: column;
+
+   } */
+
+.logo{
+margin-left: -10px;
+width: 60px;
+height: 50px;
+
+}
+.active {
+left: 0;
+}
+/* MENU HAMBURGUER */
+
+.hamburguer {
+display: block;
+margin-top: 13px;
+
+}
+
+/* Primeira linha */
+.hamburguer.active .barra:first-child {
+transform: translateY(13px) rotate(360deg) rotate(45deg);
+}
+/* Segunda linha */
+.hamburguer.active .barra:nth-child(2) {
+opacity: 0;
+}
+/* Terceira linha */
+.hamburguer.active .barra:last-child {
+transform: translateY(-13px) rotate(-360deg) rotate(-45deg);
+} 
+aside{
+
+display: none;
+}
+
+
+#produtos{
+display: block;
+flex-wrap: wrap;
+justify-content: center;
+flex-direction: column;
+margin-left: 0px;
+
+}
+.footer{
+width: 100%;
+
+}
+.footer-container{
+text-align: center;
+width: 100%;
+
+}
+
+.tituf{
+text-align: center;
+font-size: 15px;
+margin-top: 20px;
+}
+.direitos{
+font-size: 14px;
+text-align: center;
+margin: 10px;
+}
+.infos{
+margin: 10px;
+text-align: center;
+font-size: 14px;
+}
+}
