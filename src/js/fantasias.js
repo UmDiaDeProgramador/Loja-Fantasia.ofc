@@ -1,16 +1,16 @@
 const hamburguer = document.querySelector('.hamburguer');
 const headerMenu = document.querySelector('.menu-header');
 
-function toggleMenu(){
-    hamburguer.classList.toggle('active');
-    headerMenu.classList.toggle('active');
+function toggleMenu() {
+  hamburguer.classList.toggle('active');
+  headerMenu.classList.toggle('active');
 }
 
 hamburguer.addEventListener('click', toggleMenu);
 headerMenu.addEventListener('click', (event) => {
-    if (event.target.classList.contains('item-menu')) {
-        toggleMenu();
-    }
+  if (event.target.classList.contains('item-menu')) {
+    toggleMenu();
+  }
 });
 
 // evento que Aguarda o carregamento completo do DOM
@@ -88,10 +88,10 @@ document.addEventListener("DOMContentLoaded", () => {
         } else {
           // Login falhou
           Swal.fire({ // função sweet alert que mostra a mensagem
-              icon: 'error', // icone de erro
-              title: 'Erro de Login', // titulo da mensagem
-              text: 'Email ou senha incorretos. Tente novamente.', // texto da mensagem
-              confirmButtonText: 'Tentar Novamente' // botão para tentar novamente
+            icon: 'error', // icone de erro
+            title: 'Erro de Login', // titulo da mensagem
+            text: 'Email ou senha incorretos. Tente novamente.', // texto da mensagem
+            confirmButtonText: 'Tentar Novamente' // botão para tentar novamente
           });
         }
         //caso clique no botão cancelar
