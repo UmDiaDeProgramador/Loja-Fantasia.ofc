@@ -26,7 +26,7 @@
    top: 70%;
    left: 20px;
    transform: translateY(-50%);
-   height: 60px;
+   height: 100px;
 
 }
 
@@ -301,9 +301,10 @@ a:hover {
    } */
 
    .logo {
-      margin-left: -10px;
-      width: 60px;
-      height: 50px;
+      margin-top: -15px;
+      margin-left: -16px;
+      width: 56px;
+      height: 56px;
 
    }
 
@@ -316,6 +317,7 @@ a:hover {
    .hamburguer {
       display: block;
       margin-top: 13px;
+      margin-right: -19px;
 
    }
 
@@ -346,12 +348,12 @@ a:hover {
 
    .tituf {
       text-align: center;
-      font-size: 15px;
+      font-size: 12px;
       margin-top: 20px;
    }
 
    .direitos {
-      font-size: 14px;
+      font-size: 10px;
       text-align: center;
       margin: 10px;
    }
@@ -359,7 +361,7 @@ a:hover {
    .infos {
       margin: 10px;
       text-align: center;
-      font-size: 14px;
+      font-size: 10px;
    }
 
 }

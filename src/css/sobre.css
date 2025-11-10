@@ -30,7 +30,7 @@ body{
     top: 70%;
     left: 20px;
     transform: translateY(-50%);
-    height: 60px;
+    height: 100px;
 
 }
 
@@ -340,9 +340,10 @@ span{
    } */
 
     .logo {
-        margin-left: -10px;
-        width: 60px;
-        height: 50px;
+         margin-top: -15px;
+        margin-left: -16px;
+        width: 56px;
+        height: 56px;
 
     }
 
@@ -372,7 +373,29 @@ span{
     .hamburguer.active .barra:last-child {
         transform: translateY(-13px) rotate(-360deg) rotate(-45deg);
     }
+     
+    .sobre-pri,
+    .sobre-seg,
+    .sobre-ter {
+        width: 90%;
+        margin: 20px auto;
+        height: auto;
+        padding: 20px;
+    }
 
+    .titulo-pri,
+    .titulo-seg,
+    .titulo-ter {
+        margin-bottom: 5px;
+        font-size: 1.3rem;
+    }
+
+    .texto-pri,
+    .texto-seg,
+    .texto-ter {
+        font-size: 1rem;
+        line-height: 1.4;
+    }
     /* .principal{
         margin-left: -40%;
         display: flex;
@@ -399,12 +422,12 @@ span{
 
     .tituf {
         text-align: center;
-        font-size: 15px;
+        font-size: 12px;
         margin-top: 20px;
     }
 
     .direitos {
-        font-size: 14px;
+        font-size: 10px;
         text-align: center;
         margin: 10px;
     }
@@ -412,7 +435,7 @@ span{
     .infos {
         margin: 10px;
         text-align: center;
-        font-size: 14px;
+        font-size: 10px;
     }
 
     
