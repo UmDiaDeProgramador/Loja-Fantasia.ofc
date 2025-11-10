@@ -13,9 +13,11 @@
     --gradient: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3));
     --roxasso: rgb(54, 37, 80);
     --roxo: rgb(129, 99, 175);
+    --gradient2: linear-gradient(rgba(25, 14, 61, 0.842));
+      --gradient3: linear-gradient(rgba(25, 14, 61, 0.278));
 }
 body{
-    background-color: var(--roxo);
+  background-image: var(--gradient3), url(/src/assets/img/fundo.4.png);
 }
 
 .topo {
@@ -309,7 +311,7 @@ span{
     .menu-header {
         width: 100%;
         height: 100vh;
-        background: var(--roxomedio);
+        background: var(--gradient2);
         position: absolute;
         z-index: 3;
         top: 0;

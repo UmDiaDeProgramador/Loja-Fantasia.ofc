@@ -19,26 +19,26 @@ headerMenu.addEventListener('click', (event) => {
 const bannerItems = [
         {
                 imagem: "./src/assets/img/banner1.png",
-                titulo: "Caçador de bruxas",
+               
                 titulo: "Coleção Vingadores",
 
         },
         {
                 imagem: "./src/assets/img/banner2.png",
-                titulo: "Comedor de códigos",
+             
                 titulo: "Coleção Guardiões da Galáxia",
 
 
         },
         {
                 imagem: "./src/assets/img/banner3.png",
-                titulo: "Coach City- Treino para a vida",
+             
                 titulo: "Coleção Stark Industries",
 
         },
         {
                 imagem: "./src/assets/img/banner4.png",
-                titulo: "Comedor de códigos",
+              
                 titulo: "Coleção Aranhaverso",
 
 
@@ -121,7 +121,7 @@ document.addEventListener("DOMContentLoaded", () => {
                    <label for="senha" class="swal2-label" style="display: block; margin-top: 15px; margin-bottom: 5px;">Senha:</label>
                    <input id="senha" class="swal2-input" placeholder="Digite sua senha" type="password" style="width: 90%;">
                    
-                   <a href="#" style="display: block; margin-top: 10px; font-size: 0.9em; text-decoration: none; color: #0071eb;">Esqueceu a senha?</a>
+                   <a href="#" style="display: block; margin-top: 10px; font-size: 0.9em; text-decoration: none; color: #280087ff;">Esqueceu a senha?</a>
                </div>
            `,
                         focusConfirm: false, // Não foca automaticamente em nenhum input
